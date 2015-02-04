@@ -50,7 +50,7 @@
 		
 		// takes a query and processes it
 		// first argument is a query string, second is whether or not you want that query output to the report - useful for debugging and testing
-		public function processQuery ($query, $output = FALSE) { 
+		public function query ($query, $output = FALSE) { 
 			// trim whitespace off query
 			$query = trim($query); 
 			
